@@ -1,0 +1,7 @@
+name = mkmonitor
+  type = raw
+  url = https://raw.githubusercontent.com/dmitri-mcguckin/zephco-pkgs/master/computercraft/mk-monitor.lua
+  filename = mk-monitor.lua
+  category = mekanism monitor utility
+  version = 0.0.1
+end
