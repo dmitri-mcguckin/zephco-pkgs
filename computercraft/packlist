@@ -1,3 +1,14 @@
+name = rpkg
+  type = raw
+    url = https://raw.githubusercontent.com/the-ivo-robotnic/robco-packages/master/computercraft/rpkg/rpkg.lua
+    filename = rpkg
+  setup = rpkg install rpkg
+  cleanup = rpkg uninstall rpkg
+  category = meta packages
+  dependencies = packman
+  version = 0.0.1
+  size = 2048
+end
 name = foundryctl
   type = github
     author = the-ivo-robotnic
