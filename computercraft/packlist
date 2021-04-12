@@ -1,7 +1,17 @@
-name = mkmonitor
-  type = raw
-  url = https://raw.githubusercontent.com/dmitri-mcguckin/zephco-pkgs/master/computercraft/mk-monitor.lua
-  filename = mk-monitor.lua
-  category = mekanism monitor utility
+name = foundryctl
+  type = github
+    author = the-ivo-robotnic
+    repository = robco-packages
+    branch = master
+  category = tinkers utilities
+  dependencies = none
+  setup = installer setup
+  cleanup = installer remove
+  target = /usr/bin/foundryctl
+  help = github
+    author = the-ivo-robotnic
+    repository = robco-packages
+    branch = master
   version = 0.0.1
+  size = 74
 end
